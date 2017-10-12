@@ -64,9 +64,6 @@ def tail():
     """Tail logs"""
     pass
 
-if __name__ == '__main__':
-    cli()
-
 cli.add_command(query_commands.query)
 
 get.add_command(query_commands.get_events, "events")
@@ -113,3 +110,6 @@ delete.add_command(logset_commands.deletelogset, "logset")
 delete.add_command(api_key_commands.delete_api_key, "apikey")
 
 tail.add_command(query_commands.tail_events, "events")
+
+if __name__ == '__main__':
+    cli()
