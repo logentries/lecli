@@ -1,0 +1,8 @@
+version: '3'
+services:
+  lecli:
+    build: .
+    volumes:
+      - ./root/.config/lecli/config.ini:/root/.config/lecli/config.ini
+    dns:
+      - 8.8.8.8

@@ -1,0 +1,11 @@
+[Auth]
+account_resource_id =
+owner_api_key_id =
+owner_api_key =
+rw_api_key =
+ro_api_key =
+
+[Cli_Favorites]
+
+[Url]
+api_url = https://rest.logentries.com
